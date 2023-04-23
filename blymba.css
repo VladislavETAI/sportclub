@@ -1,0 +1,118 @@
+.mainnav {
+	
+	margin: auto;
+}
+.trnav {
+
+}
+.navtable
+{
+	background-color: black;
+	margin: auto;
+	height: 100px;
+	width: 700px;
+	border-radius: 0 0 20px 20px;
+}
+.navtext{
+	color: white;
+}
+.navtabletd{
+	padding: 20px;
+}
+.headtabtd1{
+}
+.headfoto1{
+	width: 100%;
+	/*height: 100%;*/
+}
+.headtabtd2{
+	padding:  15px;
+	width: 45%;
+	height: 100%;
+}
+.topic{
+	font-size: 150%;
+	font-weight: 900;
+	text-align: center;
+	position: relative;
+	top: 0;
+
+}
+.toptxt{
+	text-align: justify;
+
+	font-size: 70%;
+}
+.navpan{
+
+}
+/*.headtabtr{
+	width: 100%;
+	height: 100%;
+}*/
+.headtab{
+	height: 500px;
+}
+body{
+	font-family: 'Arial';
+	margin: auto;/*0 10%*/
+	width: 810px;
+}
+.topsec{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+}
+.tabsec{
+	width: 100%;
+}
+
+.tabsectab{
+	width: 100%;
+}
+.tabsectr{
+
+}
+.tabsectd{
+	/*width: 33%;
+	height: 20%;*/
+	height: 33%;
+	width: 33%;
+}
+.news{
+	width: 100%;
+	text-align: justify;
+}
+.tabnews{
+	width: 100%;
+}
+.tabnewstr{
+height: 33%;
+}
+.tabnewstd1{
+	width: 66%;
+	padding: 10px;
+}
+.tabnewstd2{
+	width: 33%;
+	padding: 10px;
+}
+.fnews1{
+	width: 80%;
+	margin:15px;
+}
+.fnews2{
+width: 80%;
+	margin:15px;
+}
+.fnews3{
+width: 80%;
+	margin:15px;
+}
+.fnews4{
+width: 80%;
+	margin:15px;
+}
+.ptabnestd2{
+	font-size:5px;
+}
