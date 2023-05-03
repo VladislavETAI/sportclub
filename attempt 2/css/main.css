@@ -56,7 +56,7 @@ p.zagolovoktd2{
 }
 .sectionstabletd{
 	color: white;
-	padding: /*15px*/1.5%;
+
 	width: 30%;
 	position: relative;
 }
@@ -120,4 +120,24 @@ p.zagolovoktd2{
 .footertabletrtd{
 	width: 25%;
 	padding: 10px;
+}
+
+
+.block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.block_top .block_bottom{
+	background: rgba(1, 1, 1, 1.0);
+}
+
+
+.block_text {
+	text-decoration: none;
+	color: white;
+	
 }
