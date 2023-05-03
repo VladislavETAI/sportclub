@@ -49,26 +49,26 @@ p.zagolovoktd2{
 	width: 80%;
 }
 .sectionstabletd img{
-	width: /*270px*/100%;
+	width: 100%;
 	border-radius: 30px;
-	position: relative;
-	
 }
 .sectionstabletd{
 	color: white;
+
 
 	width: 30%;
 	position: relative;
 }
 .sectionstabletd div{
 
+
 }
 .sectionstabletd p.sectionstabletd1{
 	font-size: 150%;
 	margin: 0;
-	/*padding: 10px 0px 10px 0px;*/
+	padding: 10px 0px 10px 0px;
 	text-align: center;
-	width: /*270px*/inherit;
+	width: 270px;
 	position: absolute;
 	background: rgba(0,0,0,0.5);
 	border-radius: 30px 30px 0 0;
@@ -78,7 +78,7 @@ p.zagolovoktd2{
 	margin: 215px 0 0 0;
 	padding: 0;
 	text-align: center;
-	width: /*270px*/inherit;
+	width: 270px;
 	position: absolute;
 	background: rgba(0,0,0,0.5);
 }
@@ -87,13 +87,11 @@ p.zagolovoktd2{
 	margin: 242px 0 0 0;
 	padding: 0;
 	text-align: center;
-	width: /*270px*/inherit;
+	width: 270px;
 	position: absolute;
 	background: rgba(0,0,0,0.5);
 	border-radius: 0 0 30px 30px;
 }
-
-
 .newstabletrtd {
 	width: 1100px;
 	padding: 40px;
