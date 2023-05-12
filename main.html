@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header class="head">
+<header id="head" class="head">
   <nav>
    <table align="center" class="navigation">
        <tr>
@@ -37,10 +37,11 @@
             </td>
             <td class="zagolovoktd1">
                 <h1 align="center">Спортивный клуб</h1>
-                <h1 align="center">"Атомные Пантеры"</h1>
+                <h1 align="center">&#171;Атомные Пантеры&#187;</h1>
                 <p class="zagolovoktd2">
-                    Так как CSS3 еще не является стандартом, Вы должны добавлять префикс для свойства border-radius чтобы оно работало в браузерах, которые его поддерживают. Если Вы хотите, чтобы оно работало в Firefox необходимо написать в стилях -moz-border-radius, для Safari/Chrome это свойство будет иметь такой вид — -webkit-border-radius.
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed risus ultricies tristique nulla aliquet. Proin sed libero enim sed. A cras semper auctor neque. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Faucibus interdum posuere lorem ipsum. In vitae turpis massa sed elementum. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Viverra maecenas accumsan lacus vel. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Augue eget arcu dictum varius duis at. Odio ut enim blandit volutpat maecenas volutpat blandit. Pretium lectus quam id leo in vitae turpis massa.
                 </p>
+
             </td>
         </tr>
     </table>
@@ -50,25 +51,12 @@
     <h1 align="center">Секции спортивного клуба</h1>
     <table align="center" class="sectionstable">
         <tr class="sectionstabletr">
-            <a href="#">
-            <td class="sectionstabletd" style="background-image: url('img/gift/backet.jpg') ;border-radius: 30px;">                
-                <div class="block">
-                    <!-- <a href="" style="display: block;height: 100%;width: 100%;"> -->
-                        <div class="block_top">
-                            <p class="block_text">Баскетбол</p>
-                        </div>
-                        <div class="block_middle">
-                            <img src="img/gift/foot.jpg" style="opacity: 0;">
-                        </div>
-                        <div class="block_bottom">
-                            <p class="block_text">ПН 16:30-18:30<br>ПН 16:30-18:30</p>
-                        </div>
-                    <!-- </a>  -->
-                </div>
-                       
+            <td class="sectionstabletd">
+                    <p class="sectionstabletd1">Баскетбол</p>
+                    <p class="sectionstabletd2">ПН 16:30-18:30</p>
+                    <p class="sectionstabletd3">ПН 16:30-18:30</p>
+                        <img src="img/gift/backet.jpg">
             </td>
-            </a>
-          
             <td class="sectionstabletd">
                     <p class="sectionstabletd1">Футбол</p>
                     <p class="sectionstabletd2">ПН 16:30-18:30</p>
@@ -185,7 +173,8 @@
         <tr class="sectionstabletr">
             <td class="sectionstabletd">
                 <div>
-                    <p class="sectionstabletd1">Оздоровительный фитнес</p>
+                    <p class="sectionstabletd1">Оздоровительный</p>                   
+                    <p class="sectionstabletd12">фитнес</p>
                     <p class="sectionstabletd2">ПН 16:30-18:30</p>
                     <p class="sectionstabletd3">ПН 16:30-18:30</p>
                     <a href="">
@@ -255,164 +244,163 @@
         </tr>
     </table>
 </div>
- <!--<footer>
-  <div>
-   <p>Contact information here</p>
-   <p>Additional information here</p>
-  </div>
- </footer>-->
 <div class="footer">
+    <p class="footerp">
+        <a href="#head" style="color: white;">В начало</a>
+    </p>
     <table align="center" class="footertable">
         <tr class="footertabletr">
-            <td class="footertabletrtd">
-                <h4>Образовательные программы</h4>
-                <ul>
-                    <li>
+            <td id="footertabletrtd1" class="footertabletrtd">
+                <div class="footertabletrtddiv1"><h4>Образовательные программы</h4>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Институт ядерной физики и технологий</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Институт интеллектуальных и кибернетических систем</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Инженерно-физический институт биомедицины</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Институт социально-экономических наук</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Институт лазерных и плазменных технологий</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Техникум</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Подготовительный факультет</span></a>
-                    </li>
-                </ul>
-                <h4>Об ИАТЭ НИЯУ МИФИ</h4>
-                <ul>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Об институте</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Новости</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Руководство и преподавательский состав</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Наша история</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Контакты</span></a>
-                    </li>
-                </ul>
+                    </p>
+                    <h4>Наука и образование</h4>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Научная инфраструктура</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Конференции и олимпиады</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Конкурсы и гранты</span></a>
+                        </p>
+                </div>
             </td>
-            <td class="footertabletrtd">
-                <h4>Абитуриентам</h4>
-                <ul>
-                    <li>
+            <td id="footertabletrtd2" class="footertabletrtd">
+                <div class="footertabletrtddiv2"><h4>Абитуриентам</h4>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Приёмная комиссия</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Образовательные программы</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Дни открытых дверей</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Списки, приказы</span></a>
-                    </li>
-                </ul>
-                <h4>Сотрудникам</h4>
-                <ul>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Бланки и документы</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Образовательные документы</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Профсоюзная организация</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Личный кабинет</span></a>
-                    </li>
-                </ul>
-                <h4>Наука и образование</h4>
-                <ul>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Научная инфраструктура</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Конференции и олимпиады</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Конкурсы и гранты</span></a>
-                    </li>
-                </ul>
+                    </p>
+                    <h4>Сотрудникам</h4>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Бланки и документы</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Образовательные документы</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Профсоюзная организация</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Личный кабинет</span></a>
+                        </p>
+                        
+                </div>
             </td>
-            <td class="footertabletrtd">
-                <h4>Студентам</h4>
-                <ul>
-                    <li>
+            <td id="footertabletrtd3" class="footertabletrtd">
+                <div class="footertabletrtddiv3"><h4>Студентам</h4>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Студенческий офис</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Расписание занятий</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Организации и группы</span></a>
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <a href=""><span class="footertabletrtd1">Личный кабинет</span></a>
-                    </li>
-                </ul>
-                <h4>Актуальные темы</h4>
-                <ul>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Противодействие коррупции</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Противодействие терроризму</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Точка кипения - Обнинск</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Психологическая поддержка</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Вопросы и ответы</span></a>
-                    </li>
-                </ul>
-                <h4>Наука и образование</h4>
-                <ul>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Научная инфраструктура</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Конференции и олимпиады</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span class="footertabletrtd1">Конкурсы и гранты</span></a>
-                    </li>
-                </ul>
+                    </p>
+                    <h4>Актуальные темы</h4>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Противодействие коррупции</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Противодействие терроризму</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Точка кипения - Обнинск</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Психологическая поддержка</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Вопросы и ответы</span></a>
+                        </p>
+                </div>
             </td>
-            <td class="footertabletrtd">
-                <h3>Адрес</h3>
-                <p>
-                    г. Обнинск, Калужская обл., тер. Студгородок, д. 1, ИАТЭ
-                </p>
-                <h3>Контакты</h3>
-                    <p>Телефон: +7 (484) 497-94-90, доб. 111</p>
-                    <p>E-mail: info@iate.obninsk.ru</p>
-                </ul>
+            <td id="footertabletrtd5" class="footertabletrtd">
+                <div class="footertabletrtddiv5">
+                    <h4>Об ИАТЭ НИЯУ МИФИ</h4>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Об институте</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Новости</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Руководство и преподавательский состав</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Наша история</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Контакты</span></a>
+                        </p>
+                </div>
             </td>
+            <td id="footertabletrtd4" class="footertabletrtd">
+                <div class="footertabletrtddiv4"><h3>Адрес</h3>
+                    <p>
+                        <a href=""><span class="footertabletrtd1">г. Обнинск, Калужская обл., тер. Студгородок, д. 1, ИАТЭ</span></a>
+                    </p>
+                    <h3>Контакты</h3>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">Телефон: +7 (484) 497-94-90, доб. 111</span></a>
+                        </p>
+                        <p>
+                            <a href=""><span class="footertabletrtd1">E-mail: info@iate.obninsk.ru</span></a>
+                        </p>
+                    <h3>Связь с нами</h3>
+                    <div>
+                        <table class="footertable2">
+                            <tr >
+                                <td class="footertable2td1">
+                                    <a href="https://vk.com/iatemephi"><img src="img/logos/vk.png" alt="VKontakte"></a>
+                                </td>
+                                <td class="footertable2td2">
+                                    <a href="https://www.youtube.com/@IATEvideos/videos"><img src="img/logos/ckpp.png" alt="Youtube"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            
         </tr>
     </table>
-</div>
+</div> 
+<!--<footer class="footer">
 
+</footer>-->
  
 </body>
 </html>
