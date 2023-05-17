@@ -3,8 +3,9 @@ body{
 margin: 0;
 	font-size: 1em;
 	min-width: 360px;
-	font-family: Montserrat;
+	font-family: 'Montserrat';
 }
+
 a{
 	text-decoration: none;
 }
@@ -39,12 +40,17 @@ a{
 .zagolovoktd1{
 	width: 45%;
 	padding: 0 0 0 1.6%;
+	background-image: url(bg/bglogo2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 img.zagolovoktd2{
 	width: 100% /*400px*/;
+	min-width: 650px;
 }
 p.zagolovoktd2{
 	width: /*400px*/100%;
+	min-width: 650px;
 	font-size: 140%;
 	text-align: justify;
 	line-height: 1.5;
@@ -119,8 +125,9 @@ p.zagolovoktd2{
 	margin: 0 0 0 200px;
 }
 .newstabletrtd p {
-	width: 500px;
-	padding: 0 0 0 300px;
+	width: 700px;
+	padding: 0 0 0 200px;
+	font-size: 150%;
 	text-align: justify;
 }
 .footer{
