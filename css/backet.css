@@ -1,3 +1,7 @@
+body{
+/*	font-size: 1rem;*/
+}
+
 .zagolovoktd1{
 	width: 45%;
 	padding: 0 0 0 1.6%;
@@ -9,16 +13,35 @@
 	margin: auto;
 	font-size: 250%;
 }
-.zagolovoktd2 img{
-	width: 20px;
+
+.vk_link_heading {
+	display:flex;
+	align-items: center;
 }
 
 .vk_link {
-	ctext-decoration:none; 
-	color: black
+	display:inline-flex;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+	height: 40px;
+	color: black;
+	border: 2px solid rgba(0, 0, 0, 0.0);
+	font-size: 1.5rem;
+}
+
+.vk_link {
+
 }
 
 .vk_link:hover {
-	color: red; !important
-/*	border: 2px blue;*/
+	background-color: rgba(0, 0, 1, 0.1);
+	color: blue; 
+	font-size: 1.7rem;
+	border: 2px solid blue;
+	border-radius: 30px;
+
+}
+.vk_link:hover img{
+	height: 45px;
 }
