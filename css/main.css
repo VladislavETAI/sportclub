@@ -131,81 +131,14 @@ p.zagolovoktd2{
 	text-align: justify;
 }
 .footer{
-	color: white;
-	background-color: #3B3B3B;
-	width: 100%;
-	margin: auto;
-	padding: 1px 0 0 0;
-	font-size: 80%;
-	background-image: url(bg/bgfooter.png);
-	background-size: cover;
-}
-.footerp{
-	margin: 25px 0 0 70px
-}
-.footertabletrtd1{
-	color: white; !important
-}
-.footertabletrtd{
-/*	width: 25%;*/
-	padding: 10px;
-}
-.footertable{
-	padding:0px 40px 80px 48px;
-}
-#footertabletrtd1{
-	width: 25%;
-}
-#footertabletrtd2{
-	width: 20%;
-}
-#footertabletrtd3{
-	width: 17%;
-}
-#footertabletrtd5{
-	width: 21%;
-}
-#footertabletrtd4{
-	width: 17%;
-}
-.footertabletrtd div.footertabletrtddiv4{
-	margin: 0 10px 0 10px;
-	position: relative;
-/*	top: -155px;*/
-	top: -4px;
-}
-.footertabletrtd div.footertabletrtddiv1{
-	margin: 0 10px 0 10px;
-	position: relative;
-	top: 22px;
-}
-.footertabletrtd div.footertabletrtddiv2{
-	margin: 0 10px 0 10px;
-	position: relative;
-	top: -5px;
-}
-.footertabletrtd div.footertabletrtddiv3{
-	margin: 0 10px 0 10px;
-	position: relative;
-	top: 7px;
-}
-.footertabletrtd div.footertabletrtddiv5{
-	margin: 0 10px 0 10px;
-	position: relative;
-	top: -66px;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
 }
 #youtube{
-	width: 100%;
+	width: 180px;
 }
-.footertable2{
-	width: 100%;
-}
-.footertable2 img{
-	width: 100%;
-}
-.footertable2td1{
-	width: 35%;
-}
-.footertable2td2{
-	width: 65%;
+#vk{
+	width: 120px;
 }
