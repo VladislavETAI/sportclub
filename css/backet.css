@@ -12,3 +12,13 @@
 .zagolovoktd2 img{
 	width: 20px;
 }
+
+.vk_link {
+	ctext-decoration:none; 
+	color: black
+}
+
+.vk_link:hover {
+	color: red; !important
+/*	border: 2px blue;*/
+}
