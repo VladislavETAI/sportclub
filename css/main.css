@@ -1,6 +1,5 @@
 body{
-/*	margin: 0px 8px 0px 8px;*/
-margin: 0;
+	margin: 0;
 	font-size: 1em;
 	min-width: 360px;
 	font-family: 'Montserrat';
@@ -8,7 +7,6 @@ margin: 0;
 
 a{
 	text-decoration: none;
-/*	color: black;*/
 }
 .newstable a{
 	 color: black;
@@ -33,27 +31,21 @@ a{
 	margin: 120px 10% 120px 10%;
 	width: 80%;
 }
-/*.zagolovok{
-	padding: 0px 50px 0px 50px;
-}*/
 .zagolovoktd{
 	width: 45%;
-	/*padding: 0 50px 0 50px;*/
 	padding: 0 1.6% 0 0;
 }
 .zagolovoktd1{
 	width: 45%;
-	padding: 0 0 0 1.6%;/*
-	background-image: url(bg/bglogo3.png);
-	background-size: contain;
-	background-repeat: no-repeat;*/
+	padding: 0 0 0 1.6%;
 }
 img.zagolovoktd2{
-	width: 100% /*400px*/;
+	width: 100%;
 	min-width: 650px;
+
 }
 p.zagolovoktd2{
-	width: /*400px*/100%;
+	width: 100%;
 	min-width: 650px;
 	font-size: 140%;
 	text-align: justify;
