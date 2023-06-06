@@ -153,3 +153,34 @@ p.zagolovoktd2{
 	width: 95%;
 
 }
+.vk_link_heading {
+	display:flex;
+	align-items: center;
+}
+
+.vk_link {
+	display:inline-flex;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+	height: 40px;
+	color: black;
+	border: 2px solid rgba(0, 0, 0, 0.0);
+	font-size: 1.5rem;
+}
+
+.vk_link {
+
+}
+
+.vk_link:hover {
+	background-color: rgba(0, 0, 1, 0.1);
+	color: blue; 
+	font-size: 1.7rem;
+	border: 2px solid blue;
+	border-radius: 30px;
+
+}
+.vk_link:hover img{
+	height: 45px;
+}
