@@ -15,6 +15,7 @@ body{
 	font-size: 250%;
 }
 
+
 .vk_link_heading {
 	display:flex;
 	align-items: center;
@@ -46,3 +47,8 @@ body{
 .vk_link:hover img{
 	height: 45px;
 }
+
+.zagolovoktd2 img{
+	width: 20px;
+}
+

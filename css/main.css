@@ -26,7 +26,7 @@ a{
 }
 
 .logo{
-	margin: 0 10% 120px 10%;
+	margin: 120px 10% 120px 10%;
 	width: 80%;
 }
 /*.zagolovok{
@@ -39,10 +39,10 @@ a{
 }
 .zagolovoktd1{
 	width: 45%;
-	padding: 0 0 0 1.6%;
+	padding: 0 0 0 1.6%;/*
 	background-image: url(bg/bglogo3.png);
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 img.zagolovoktd2{
 	width: 100% /*400px*/;
@@ -147,4 +147,9 @@ p.zagolovoktd2{
 }
 #vk{
 	width: 120px;
+}
+#timetable{
+	border: 3px solid black;
+	width: 95%;
+
 }
