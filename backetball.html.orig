@@ -57,7 +57,7 @@
               
                 <h3 class="vk_link_heading">
                     Глава секции:
-                    <a href="https://vk.com/max_batruchenok" class="vk_link" target="_blank">      
+                    <a href="https://vk.com/max_batruchenok" class="vk_link">      
                         <img src="img/logos/vk.png" height="40px" 
                             style="width: auto;
                                    margin-right: 10px;">
@@ -92,7 +92,7 @@
                 <h2 align="center">Контакты</h2>
                 <h3 class="vk_link_heading">
                     Глава секции:
-                    <a href="https://vk.com/a.lapenko99" class="vk_link"target="_blank">      
+                    <a href="https://vk.com/a.lapenko99" class="vk_link">      
                         <img src="img/logos/vk.png" height="40px" 
                             style="width: auto;
                                    margin-right: 10px;">

@@ -5,9 +5,10 @@ body{
 .zagolovoktd1{
 	width: 45%;
 	padding: 0 0 0 1.6%;
-	background-image: url(bg/bglogo3.png);
-	background-size: contain;
-	background-repeat: no-repeat;
+	background-image: none;
+}
+.zagolovoktd img{
+	width: 600px;
 }
 .zagolovoktd1 h2{
 	margin: auto;
