@@ -186,3 +186,50 @@ p.zagolovoktd2{
 .vk_link:hover img{
 	height: 45px;
 }
+.timetable{
+
+}
+table.zebra {
+border-spacing: 0;
+empty-cells: hide;
+}
+.zebra td {
+padding: 10px 20px;
+text-align: center;
+border-bottom: 1px solid #F4EEE8;
+transition: all 0.5s linear;
+}
+.zebra td:first-child {
+text-align: left;
+color: #3D3511;
+font-weight: bold;
+}
+.zebra th {
+padding: 10px 10px;
+color: #3D3511;
+border-bottom: 1px solid #F4EEE8;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.zebra td:nth-child(even) {
+background: #AFEEEE;
+}
+.zebra td:nth-child(odd) {
+background: #ADD8E6;
+}
+.zebra th:nth-child(even)  {
+background: #AFEEEE;
+}
+.zebra th:nth-child(odd)  {
+background: #ADD8E6;
+}
+.round-top {
+border-top-left-radius: 5px;
+}
+.round-bottom {
+border-bottom-left-radius: 5px;
+}
+.zebra tr:hover .zebra td{
+background: #D1C7BF;
+font-weight: bold;
+}
