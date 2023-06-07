@@ -186,7 +186,7 @@ p.zagolovoktd2{
 .vk_link:hover img{
 	height: 45px;
 }
-.timetable{
+/*.timetable{
 
 }
 table.zebra {
@@ -232,4 +232,23 @@ border-bottom-left-radius: 5px;
 .zebra tr:hover .zebra td{
 background: #D1C7BF;
 font-weight: bold;
+}*/
+
+table.timetable {
+text-align: center;
+font-size: 90%;
+border-collapse: collapse;
+border-spacing: 5px;
+background: #E1E3E0;
+border: 2px solid black;
+table-layout: fixed;
+width: 100%;
+}
+.timetable tbody tr:nth-child(2) {
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+}
+.timetable td {
+padding: 10px 0px 10px 0px;
+border: 2px solid black;
 }
