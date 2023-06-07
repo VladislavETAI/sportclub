@@ -186,61 +186,6 @@ p.zagolovoktd2{
 .vk_link:hover img{
 	height: 45px;
 }
-/*.timetable{
-
-}
-table.zebra {
-border-spacing: 0;
-empty-cells: hide;
-}
-.zebra td {
-padding: 10px 20px;
-=======
-table.timetable {
->>>>>>> 3be06600966accd6d9972051a9bcce12a0d31a8b
-text-align: center;
-font-size: 90%;
-border-collapse: collapse;
-border-spacing: 5px;
-background: #E1E3E0;
-border: 2px solid black;
-table-layout: fixed;
-width: 100%;
-}
-.timetable tbody tr:nth-child(2) {
-border-bottom: 2px solid black;
-border-top: 2px solid black;
-}
-<<<<<<< HEAD
-.zebra th {
-padding: 10px 10px;
-color: #3D3511;
-border-bottom: 1px solid #F4EEE8;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-}
-.zebra td:nth-child(even) {
-background: #AFEEEE;
-}
-.zebra td:nth-child(odd) {
-background: #ADD8E6;
-}
-.zebra th:nth-child(even)  {
-background: #AFEEEE;
-}
-.zebra th:nth-child(odd)  {
-background: #ADD8E6;
-}
-.round-top {
-border-top-left-radius: 5px;
-}
-.round-bottom {
-border-bottom-left-radius: 5px;
-}
-.zebra tr:hover .zebra td{
-background: #D1C7BF;
-font-weight: bold;
-}*/
 
 table.timetable {
 text-align: center;
